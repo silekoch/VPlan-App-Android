@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:id="@+id/settings_oben"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:layout_alignParentTop="true">
+        <Button
+            android:id="@+id/settings_sek1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kl. 5-9"
+            android:background="@drawable/settings_tab_button_selector_left"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="3dp"/>
+        <Button
+            android:id="@+id/settings_sek2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EF-Q2"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/settings_tab_button_selector_mid"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="3dp"/>
+        <Button
+            android:id="@+id/settings_lehrer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lehrer"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/settings_tab_button_selector_right"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="3dp"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/settings_mitte"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.70"></FrameLayout>
+
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:id="@+id/settings_unten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/settings_abbrechen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abbrechen"
+            android:background="@drawable/settings_refresh_button_selector"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="10dp"/>
+        <Button
+            android:id="@+id/settings_sichern"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sichern"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/settings_refresh_button_selector"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginRight="10dp"/>
+    </RelativeLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SGHVplan</string>
+    <string name="action_settings">Settings</string>
+    <string name="keine_vertretungen">Aktuell keine Vertretungen</string>
+    <string name="aktualiesieren_vertretungen">Aktualisieren sie die Vertretungen</string>
+    <string name="bearbeitung_abbrechen">Bearbeitung abbrechen</string>
+    <string name="kurse_bearbeiten">Kurse bearbeiten</string>
+</resources>

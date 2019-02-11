@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditTextPreference
+        android:title="Passwort"
+        android:key="password"
+        android:defaultValue=""
+        android:inputType="textPassword" />
+
+    <EditTextPreference
+        android:title="mode"
+        android:key="mode"
+        android:defaultValue="sek1" />
+
+    <EditTextPreference
+        android:title="Klasse"
+        android:key="klasse"
+        android:defaultValue=""/>
+
+    <EditTextPreference
+        android:title="Lehrerkuerzel"
+        android:key="lehrer_kuerzel"
+        android:defaultValue=""/>
+
+    <EditTextPreference
+        android:title="Kurse"
+        android:key="kurse"
+        android:defaultValue=""/>
+
+
+</PreferenceScreen>

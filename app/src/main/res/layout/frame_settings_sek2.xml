@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true" android:focusableInTouchMode="true">
+    
+    <LinearLayout
+        android:id="@+id/focus_catcher_sek2"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:orientation="vertical"></LinearLayout>
+
+    <EditText
+        android:id="@+id/frame_settings_sek2_pw"
+        android:hint="Passwort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword|text"
+        android:gravity="center_horizontal"
+        android:imeOptions="actionDone"/>
+
+    <Button
+        android:id="@+id/frame_settings_sek2_kurs_hinzufügen_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kurs hinzufügen"/>
+
+    <Button
+        android:id="@+id/frame_settings_sek2_kurs_loeschen_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kurse bearbeiten"/>
+
+    <ListView
+        android:id="@+id/frame_settings_sek2_kurse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:gravity="center_horizontal"/>
+</LinearLayout>
