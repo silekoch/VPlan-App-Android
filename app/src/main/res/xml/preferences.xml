@@ -6,7 +6,6 @@
     <EditTextPreference
         android:title="Passwort"
         android:key="password"
-        android:defaultValue=""
         android:inputType="textPassword" />
 
     <EditTextPreference
@@ -16,18 +15,15 @@
 
     <EditTextPreference
         android:title="Klasse"
-        android:key="klasse"
-        android:defaultValue=""/>
+        android:key="klasse"/>
 
     <EditTextPreference
         android:title="Lehrerkuerzel"
-        android:key="lehrer_kuerzel"
-        android:defaultValue=""/>
+        android:key="lehrer_kuerzel"/>
 
     <EditTextPreference
         android:title="Kurse"
-        android:key="kurse"
-        android:defaultValue=""/>
+        android:key="kurse"/>
 
 
 </PreferenceScreen>
